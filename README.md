@@ -20,7 +20,7 @@ Visual Studio Code の Remote - Containers 拡張機能を利用して、 Jekyll
 
    <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>
 
-## 使い方
+## 基本的な使い方
 
 1. Docker Desktop を起動します（Windowsの起動時に同時起動する設定もあります）。
 
@@ -52,5 +52,12 @@ Visual Studio Code の Remote - Containers 拡張機能を利用して、 Jekyll
 
    ![Jekyll の最初の画面が表示される](readme-images/jekyll-first-screen.png)
 
-1. [docs] ディレクトリ内に Jykell のファイル群を作成していってください。
+1. [docs] ディレクトリ内に Jekyll のファイル群を作成していってください。
    編集したファイルを保存すると、ブラウザー画面もリロードされます。
+
+## 再起動
+
+設定ファイルや Gemfile の修正を行った場合は、コンテナーの再起動を行ってください。
+画面左下の [Dev Container] ボタンを押下して、[Rebuild container] を選択します。
+
+![Rebuild Container を選択](readme-images/select-rebuild-container.png)
