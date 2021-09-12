@@ -64,3 +64,14 @@ Visual Studio Code の Remote - Containers 拡張機能を利用して、 Jekyll
 画面左下の [Dev Container] ボタンを押下して、[Rebuild container] を選択します。
 
 ![Rebuild Container を選択](readme-images/select-rebuild-container.png)
+
+## 検証環境
+
+README に記載している環境構築方法、基本的な使い方は、以下の環境で検証を行っています。
+環境の差異によって手順等とこなる場合がありますので、適宜読み替えてください。
+
+- Windows 10 21H1
+- Visual Studio Code 1.60.0
+- Remote - Containers extension v0.194.0
+- Docket Desktop 4.0.0
+- Jekyll 4.2.0（docker composeではタグ未指定、今回の検証に使用したバージョン）
