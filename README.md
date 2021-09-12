@@ -1,6 +1,9 @@
 # このリポジトリについて
 
 Visual Studio Code の Remote - Containers 拡張機能を利用して、 Jekyll をうごかすサンプルです。
+本サンプルでできることについては、以下のブログをご覧ください。
+
+[ツナ缶雑記 ｜ VSCode の Remote - Containers で Jekyll の開発環境を作る](https://tsuna-can.hateblo.jp/entry/2021/09/13/090000)
 
 ## 環境構築方法
 
